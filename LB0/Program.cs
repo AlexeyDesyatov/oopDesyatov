@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace LbDesyatov1
 {
+    /// <summary>
+    /// Вычисляет сумму первых N нечетных чисел.
+    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
@@ -17,7 +20,7 @@ namespace LbDesyatov1
             {
                 sum += i * 2 - 1;
             }
-            Console.Write("Сумма первых целых N положительных нечетных чисел sum=");
+            Console.Write("Сумма первых целых N нечетных чисел sum=");
             Console.WriteLine(sum);
             Console.Read();
 
