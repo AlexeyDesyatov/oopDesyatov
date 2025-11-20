@@ -15,7 +15,13 @@ namespace LbDesyatov1
         {
             Console.Write("Количество нечетных чисел N =");
             int N = int.Parse(Console.ReadLine());
+<<<<<<< HEAD
+
+            var sum = 0;
+
+=======
             int sum1 = 0;
+>>>>>>> develop
             for (int i = 1; i <= N; i++)
             {
                 sum1 += i * 2 - 1;
