@@ -22,7 +22,7 @@ namespace LbDesyatov1
 
             for (int i = 1; i <= N; i++)
             {
-                sum += i + 2 - 1;
+                sum += i + 2 - 1;//+
             }
             Console.Write("Сумма первых целых N нечетных чисел sum=");
             Console.WriteLine(sum);
